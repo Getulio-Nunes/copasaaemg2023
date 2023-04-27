@@ -1,0 +1,66 @@
+.imagem-torcida{
+  width:100%;
+
+}
+
+.descricao-rodadas
+{
+  background-color:#2A388F;
+text-align: center;
+}
+
+.topicos-tabela-rodadas{
+  text-align: center;
+}
+
+.topicos__titulo-radas{
+  color: var(--branco);
+    font-weight: bold;
+    padding-bottom: 1em;
+    background-color: #F89B1E;
+    margin-top: -2.1%;
+    padding: 1em 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 1023px) {
+  .card-rodadas {
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    background-color:#2A388F;
+  }
+  .topicos__titulo-radas{
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .card-rodadas{
+    width: 60%;
+    margin: auto;
+  }
+  .imagem-torcida{
+    margin-top: 37%;
+
+  }
+  .topicos-tabela-rodadas{
+    width: 60%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  .card-rodadas{
+    width: 60%;
+    margin: auto;
+  }
+  .imagem-torcida{
+    margin-top: 0;
+
+  }
+
+}
+
+

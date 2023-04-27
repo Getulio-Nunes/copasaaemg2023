@@ -1,0 +1,157 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+css
+Copy code
+h1 {
+text-align: center;
+font-size: 36px;
+color: #333;
+margin-top: 50px;
+}
+
+table {
+border-collapse: collapse;
+margin: 0 auto;
+margin-top: 50px;
+width: 100%;
+width: 80%;
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+padding: 10px;
+text-align: center;
+white-space: nowrap;
+}
+
+th {
+background-color: #2A388F;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+}
+
+td {
+border: 1px solid #ccc;
+}
+
+.equipe {
+text-align: left;
+font-weight: bold;
+}
+
+.ultimos-jogos {
+text-align: center;
+font-size: 14px;
+font-style: italic;
+}
+
+.tabela-titulo{
+        text-align: center;
+        padding: 1em;
+        
+        
+}
+.tabela-classificao
+{
+    margin-top: -0%;
+    width: 100%;
+}
+
+.chaveamento
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 1em;
+        
+
+}
+
+.chave-a , .chave-b
+{
+    width: 50%;
+}
+
+.tabela-classificao-prevew{
+    margin-bottom: 1em;
+    margin-top: -0.7%;
+}
+
+.topicos-tabela {
+    text-align: center;
+
+  }
+
+
+
+@media screen and (min-width: 1024px) {
+
+.topicos-tabela{
+    margin-top: 4%;
+    }
+ 
+ .tabela-classificao{
+    width: 100%;
+    margin: auto;
+    
+ }
+
+ .chaveamento{
+    margin: 0 10% ;
+    padding-bottom: 2em;
+    width: 100%;
+    margin: auto;
+ }
+ .tabela-classificao-prevew{
+
+    margin-top: -1%;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+}
+
+
+
+
+@media screen and (min-width: 1366px) {
+
+    .topicos-tabela{
+        margin-top: 0%;
+        }
+    .tabela-classificao
+    {
+        width: 60%;
+    }
+    .tabela-classificao-prevew{
+
+        margin-top: -1%;
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+    .chaveamento{
+        padding-bottom: 2em;
+        width: 60%;
+        margin: auto;
+     }
+}
+
+
+@media screen and (min-width: 1919px)
+{
+    .tabela-classificao-prevew{
+
+        margin-top: -1%;
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+
+
+}

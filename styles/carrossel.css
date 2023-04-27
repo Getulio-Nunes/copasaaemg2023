@@ -1,0 +1,196 @@
+.card{
+  width: 100%;
+  background-color:#2A388F;
+}
+
+.card__descricao
+{
+  background-color:#2A388F;
+  padding: 1em;
+}
+.descricao{
+  width:  300px;
+  margin: auto;
+  background-color: aliceblue;
+  padding: 1em;
+  border-radius: 5%;
+  text-align: center;
+}
+.carrossel__titulo {
+  background-color: #2a388f;
+  padding: 0.5em 0;
+  margin-top: -2%;
+}
+
+.swiper {
+  background-color: #2a388f;
+  padding: 0.5em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.swiper-slide img /*Carrossel 6°*/ {
+  width: 100.5%;
+} /*Carrossel 6°*/
+
+.swiper-button-prev, .swiper-button-next /*Carrossel 7°*/ {
+  display: none;
+} /*Carrossel 7°*/
+
+.swiper-pagination  /*Carrossel 7°*/ {
+  position: initial;
+} /*Carrossel 7°*/
+
+.botoes {
+  display: flex;
+}
+
+/* PARA BAIXO CONFIGURAÇÕES DO CARD ABAIXO DO CARROSSEL */
+
+.descricao__titulo {
+  
+  color: var(--laranja);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+.descricao__titulo-livro {
+  color: var(--azul);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5em 0;
+  padding-right: 1em;
+}
+
+.descricao__texto {
+  padding-right: 1em;
+  text-align: justify;
+  font-size: 14px;
+}
+.botoes__item {
+  margin: 0 0.2em;
+}
+
+.botoes__ancora {
+  background-color: var(--laranja);
+  padding: 1em 2.2em;
+  color: var(--branco);
+  font-weight: 700;
+  text-decoration: none;
+  transition: 1.5s;
+}
+
+.botoes__ancora:hover {
+  background-color: #970d32;
+  color: var(--laranja);
+  border-radius: 20px;
+  transition: 1.5s;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: block;
+  top: 50%;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  .card {
+
+    margin: 2em auto;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    background-color:#2A388F;
+  }
+  
+  .descricao__titulo {
+    
+    margin-bottom: 1em;
+    text-align: center;
+    padding-right: 0;
+    font-size: 24px;
+   }
+   .descricao{
+     text-align: center;
+     padding-bottom: 1em;
+   }
+
+}
+
+@media screen and (min-width: 1366px) {
+
+  .swiper-pagination {
+
+    display: flex;
+    width: 50%;
+
+  }
+
+  .swiper {
+    width: 58.8%;
+    background-color: #2a388f;
+    padding: 0.5em;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+    top: 50%;
+  }
+
+  .card {
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 60%;
+   background-color: #2A388F;
+
+  }
+  .carrossel__titulo {
+    background-color: #2a388f;
+    padding: 1em 0;
+    margin-top: -2%;
+  }
+  .imagem-equipes{
+    width: 50%;
+    display: flex;
+  }
+  .descricao__titulo {
+    
+    margin-bottom: 1em;
+    text-align: center;
+    padding-right: 0;
+    font-size: 24px;
+   }
+   .descricao{
+     text-align: center;
+     padding-bottom: 1em;
+   }
+}
+
+@media screen and (min-width: 1919px) {
+
+  .swiper {
+    width: 59.1%;
+    background-color: #2a388f;
+    padding: 0.5em;
+  }
+
+  .descricao__titulo {
+    
+   margin-bottom: 1em;
+   text-align: center;
+   padding-right: 0;
+   font-size: 24px;
+  }
+  .descricao{
+    text-align: center;
+    padding-bottom: 1em;
+  }
+}

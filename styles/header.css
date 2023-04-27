@@ -1,0 +1,180 @@
+
+.menu-icone{
+
+  padding-right: 5%;
+}
+
+.botao__menu-hamburguer {
+  background-image: url(../img/Menu.png);
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+
+}
+
+
+.copa-lista {
+  text-align: justify;
+}
+
+.copa-lista li {
+  padding: 0.3em;
+}
+
+.cabecalho {
+  background-color: #2a388f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+ 
+}
+
+.container__imagem {
+  padding: 1em;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 50vw;
+  z-index: 2;
+}
+
+.container__botao:checked ~ .lista-menu {
+  display: block;
+  
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: #eeefe5;
+}
+
+.lista-menu__titulo {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--laranja);
+  font-weight: 700;
+}
+
+.lista-menu__link {
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.container__botao {
+  display: none;
+}
+
+.imagem-estadios-subpaginas
+{
+  width: 90%;
+}
+.imagem-estadios {
+  width: 100%;
+ 
+}
+.container__titulo  /*@MEDIA SCREEM 1024 -- Criado para aparecer somente quando alcançar o tamanho*/ {
+  display: none;
+}
+
+.opcoes {
+  display: none;
+  margin-right: 5%;
+}
+
+
+
+
+/*MUDANDO A INTERFACE DO SITE PARA TABLET*/
+@media screen and (min-width: 1024px) {
+  .container__titulo,
+  .container__titulo--negrito {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+
+  .container__titulo {
+    margin-left: 2%;
+    font-weight: 400;
+    display: block;
+  }
+
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
+
+  .opcoes {
+    display: flex;
+  }
+
+  .opcoes__item {
+    color: var(--branco);
+    padding: 2em 1em;
+    text-transform: uppercase;
+  }
+  .opcoes__item:hover {
+    background-color: #131e56;
+    transition: 0.3s ease-in-out;
+  }
+  .opcoes__link {
+    color: var(--branco);
+
+    text-decoration: none;
+  }
+
+  .container__imagem-transparente {
+    display: none;
+  }
+
+  .botao__menu-hamburguer {
+    display: none;
+  }
+
+  .opcoes__botao:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  .opcoes__botao {
+    display: none;
+  }
+
+
+  .cabecalho {
+    width: 100%;
+    margin: auto;
+  }
+
+  .banner-div {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .cabecalho {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .banner-div {
+    width: 60%;
+    margin: auto;
+  }
+}

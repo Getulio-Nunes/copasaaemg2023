@@ -1,0 +1,25 @@
+.container__imagem{
+    width: 80%;
+      
+}
+.bloco__imagem{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1023px) {
+    .bloco__imagem{
+      width: 80%;
+      text-align: left;
+
+    }
+    
+    }
+
+@media screen and (min-width: 1366px) {
+
+.bloco__imagem{
+
+  width: 120%;
+}
+}

@@ -1,0 +1,67 @@
+
+.rodape {
+  background-color: #2A388F;
+  padding: 1em;
+  text-align: center;
+}
+
+.rodapé__titulo{
+  color: white;
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+.lista-rodapé {
+  display: none;
+}
+
+/*MUDANDO A INTERFACE DO SITE PARA TABLET*/
+@media screen and (min-width: 1366px) {
+  .rodape {
+    width: 57.7%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .lista-rodapé__item {
+    display: flex;
+    align-items: center;
+    margin: 0.6em 0;
+  }
+
+  .lista-rodapé__link {
+    color: var(--cinza);
+    text-decoration: none;
+    margin-left: 0.6em;
+  }
+
+  .lista-rodapé__titulo {
+    font-size: 14px;
+    color: var(cinza--calor);
+  }
+
+  .rodapé__titulo {
+    font-size: 16px;
+  }
+  .lista-rodapé {
+    display: block;
+  }
+  .hr-linha{
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .rodape {
+    width: 57.8%;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  .rodape {
+    width: 58.4%;
+  }
+
+}
